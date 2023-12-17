@@ -15,10 +15,6 @@ const cities = [
     { name: 'Tokyo', timeZone: 'Asia/Tokyo', utcOffset: '+9' },
 ];
 
-export const metadata = {
-    title: 'Clock',
-};
-
 export default function Page() {
     const time = new Date();
 
