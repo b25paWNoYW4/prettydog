@@ -1,3 +1,4 @@
+'use client';
 import dynamic from 'next/dynamic';
 
 const Clock = dynamic(() => import('../../../components/clock'), { ssr: false })
@@ -7,6 +8,7 @@ const cities = [
     { name: 'New York', timeZone: 'America/New_York', utcOffset: '-5' },
     { name: 'London', timeZone: 'Europe/London', utcOffset: '+0' },
     { name: 'Paris', timeZone: 'Europe/Paris', utcOffset: '+1' },
+    { name: 'Moscow', timeZone: 'Europe/Moscow', utcOffset: '+3' },
     { name: 'Dubai', timeZone: 'Asia/Dubai', utcOffset: '+4' },
     { name: 'Beijing', timeZone: 'Asia/Shanghai', utcOffset: '+8' },
     { name: 'Singapore', timeZone: 'Asia/Singapore', utcOffset: '+8' },
