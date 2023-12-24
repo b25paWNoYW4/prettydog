@@ -41,7 +41,7 @@ export default function RootLayout({
 
           {children}
         </main>
-        <footer className='flex justify-center items-center border-t border-neutral-200 dark:border-neutral-700'>
+        <footer className='flex justify-center items-center pt-6 pb-4 border-neutral-200 dark:border-neutral-700'>
           <p className="text-sm prose prose-neutral dark:prose-invert">
             The <a href="https://github.com/b25paWNoYW4/prettydog" target="_blank" rel="noopener noreferrer">code</a> of this site is a fork of Lee Robinson's <a href="https://github.com/leerob/leerob.io" target="_blank" rel="noopener noreferrer">leerob.io</a>.
           </p>
